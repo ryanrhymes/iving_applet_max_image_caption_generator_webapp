@@ -7,9 +7,11 @@ services:
     stdin_open: true
     tty: true
     ports:
-      - 5000:5000
+      - 5100:5000
       - 8088:8088
 
   web:
     image: codait/max-image-caption-generator-web-app
     network_mode: service:api
+    depends_on:
+      - api

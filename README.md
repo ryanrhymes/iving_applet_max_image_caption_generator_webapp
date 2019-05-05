@@ -1,6 +1,14 @@
 # iving_applet
 
 
+# Note
+
+This applet does not work at the moment, need to add some logic that web
+service waits until the api service is up and running.
+
+Please fix it!
+
+
 # Refer to
 
 - https://hub.docker.com/r/codait/max-image-caption-generator-web-app
