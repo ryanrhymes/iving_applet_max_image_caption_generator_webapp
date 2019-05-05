@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+
+  api:
+    image: codait/max-image-caption-generator
+    stdin_open: true
+    tty: true
+    ports:
+      - 5100:5000
+      - 8088:8088
+
+  web:
+    image: codait/max-image-caption-generator-web-app
+    network_mode: service:api
