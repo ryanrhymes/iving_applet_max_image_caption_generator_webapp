@@ -4,7 +4,8 @@
 # Note
 
 This applet does not work at the moment, need to add some logic that web
-service waits until the api service is up and running.
+service waits until the api service is up and running. Or you can start
+the two containers manually in order to start the service.
 
 Please fix it!
 
